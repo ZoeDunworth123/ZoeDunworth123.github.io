@@ -1,85 +1,76 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <title>Zoe Dunworth | Games Dev Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
-  <body>
-    
+<body>
+
   <div class="header">
     <div class="inner">
-  <h1>Zoe Dunworth</h1>
-  <p>Computer Games Development student • Unity/Unreal • C#/C++</p>
-  <p>
-    <a class="btn" href="https://1drv.ms/w/c/fc25ad6b494e2078/IQCTOhjNyjGiTY1xRbR4PaVyAWDe9rDhpuLUthgZHWqMDOw?e=KmQVsj">CV</a>
-    <a class="btn" href="https://github.com/ZoeDunworth123">GitHub</a>
-    <a class="btn" href="https://www.linkedin.com/in/zoë-dunworth-058371301">LinkedIn</a>
-    <a id ="scrollButton" class="scroll-btn"> Contact me</a>
-  </p>
-    </div>
- </div>
-  
-<div class="inner">
-  <ul>
-    <li><a href="projects">Projects</a></li>
-    <li><a href ="aboutMe">About me</a></li>
-  </ul>
-  <h2>Featured Projects</h2>
-  <div class="grid">
-    
-    <div class="card">
-      <h3>Rock of Cashel inspired environment.</h3>
-      <p>Tools used: Blender, Substance Painter, Substance Sampler, Unreal Engine 5, World Machine.</p>
-      <p> 
-        <a class="btn" href="https://youtu.be/dSDFEMCZW8I?si=E-2OBwkbGXzyCZ00">Project video</a>
-        <div class = "container">
-          <div class = "mySlides">
-            <div class ="numbertext"> 1 / 2</div>
-            <img src="ROC-side.png" alt ="Photo of project." width="210" height="200">
-          </div>
-          <div class = "mySlides">
-            <div class ="numbertext"> 2 / 2</div>
-        <img src="ROC-ariel.png" alt = "Photo of project."width="200 height="200">
-          </div>
-          <a class="prev" onClick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onClick="plusSlides(+1)">&#10095;</a>
-      </p>
-    </div>
-    </div>
-    
-    <div class="card">
-      <h3>Project Title</h3>
-      <p>1–2 lines: what it is + what you built.</p>
-      <p>
-        <a class="btn" href="#">Play</a>
-        <a class="btn" href="#">Code</a>
-        <a class="btn" href="#">Video</a>
-      </p>
-    </div>
-  </div>
-    
-<h2>About</h2>
-  <p><img src="IMG_london-cropped.png" alt="Photo of Zoe" style="float:right" width="150" height ="170">Computer Games Development student with a strong foundation in programming and interactive systems, and hands-on experience building and testing software in team environments. Comfortable working across the development lifecycle, with a particular interest in gameplay and frontend development. Known for being proactive, reliable, and easy to work with, with strong communication skills developed through collaborative projects and customer-facing roles. Currently seeking an internship/graduate opportunity to apply my technical skills, learn from experienced developers, and contribute to engaging, high-quality game experiences.</p>
+      <h1>Zoe Dunworth</h1>
+      <p>Computer Games Development student • Unity/Unreal • C#/C++</p>
 
-</div>
-    <div class="footer">
-  <div class="inner">
-<div id = "contact" class="contact">
-  <h2>Contact me</h2>
-  <address>
-  <p>Email: zoecdunworth@gmail.com</p>
-  <p>Phone: 0838646051</p>
-    </address>
-</div>
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="about.html">About</a>
+      </nav>
+
+      <div class="link-row">
+        <a class="btn" href="https://1drv.ms/w/c/fc25ad6b494e2078/IQCTOhjNyjGiTY1xRbR4PaVyAWDe9rDhpuLUthgZHWqMDOw?e=KmQVsj">CV</a>
+        <a class="btn" href="https://github.com/ZoeDunworth123">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/zoë-dunworth-058371301">LinkedIn</a>
+        <a id="scrollButton" class="scroll-btn">Contact me</a>
+      </div>
+    </div>
   </div>
-</div>
-    
+
+  <main class="inner">
+    <h2>Welcome</h2>
+    <p>
+      Hi! I’m Zoe — a Computer Games Development student focused on gameplay and frontend systems.
+      Have a look at my featured work, or head straight to the Projects page.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Featured: Rock of Cashel inspired environment</h3>
+        <p>Blender • Substance Painter/Sampler • Unreal Engine 5 • World Machine</p>
+        <p>
+          <a class="btn" href="projects.html">See projects</a>
+          <a class="btn" href="https://youtu.be/dSDFEMCZW8I?si=E-2OBwkbGXzyCZ00">Project video</a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>About me</h3>
+        <p>
+          Computer Games Development student with programming + team project experience,
+          looking for internship/graduate roles.
+        </p>
+        <p>
+          <a class="btn" href="about.html">Read more</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer">
+    <div class="inner">
+      <div id="contact" class="contact">
+        <h2>Contact me</h2>
+        <address>
+          <p>Email: zoecdunworth@gmail.com</p>
+          <p>Phone: 0838646051</p>
+        </address>
+      </div>
+    </div>
+  </div>
+
   <script src="scrollscript.js"></script>
-      <script src="slideshow.js"></script>
 </body>
-  
 </html>
