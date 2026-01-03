@@ -79,21 +79,8 @@ a {
   top: 0;
 }
 
-.top-header {
-  top: 10px;
-  position: relative;
-}
-
-.top-header img {
-  width: 100%;
-  margin: none;
-  padding: none;
-}
-
-.header-text {
-  position: absolute;
-  text-align: center;
-}
+.header {
+  background-color: #E2EAF4;
 
 .footer {
   background-color: #E2EAF4;
