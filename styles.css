@@ -32,13 +32,6 @@ body {
   background: rgba(0, 0, 0, 0.10);
 }
 
-/* Optional: keeps your CV/GitHub/LinkedIn row from looking like a paragraph */
-.link-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 8px;
-}
 
 /* About photo without inline styles */
 .about-photo {
